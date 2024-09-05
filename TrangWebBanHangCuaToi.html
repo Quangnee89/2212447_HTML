@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trang Web Bán Hàng Đơn Giản</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 15px;
+            width: calc(33% - 40px);
+            box-sizing: border-box;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        .product h2 {
+            font-size: 18px;
+            margin: 0;
+        }
+        .product p {
+            color: #666;
+        }
+        .product .price {
+            font-size: 20px;
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .product {
+                width: calc(50% - 40px);
+            }
+        }
+        @media (max-width: 480px) {
+            .product {
+                width: calc(100% - 40px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trang Web Bán Hàng</h1>
+    </header>
+    <script> alert ('Chào mừng đến với Trang Web đầu tiên của tôi'); </script>'
+    <div class="container">
+        <div class="main-content">
+            <div class="product">
+                <img src="https://gamek.mediacdn.vn/133514250583805952/2023/4/14/0-16814458174881819454039-1681445972624-16814459733421997445851-1681466343170-16814663435361591888352.png" alt="Sản phẩm 1">
+                <h2>PC ProVip dành cho Coder chuyên nghiệp</h2>
+                <p>RTX4090</p>
+		<p>Core i9 13900H</p>
+		<p>Ram: PC4 Kingmax Zeus 32G/3000</p>
+		<p>VGA - Card màn hình: RTX-2080Ti/11GB/DDR6/352 BIT</p>
+		<p>Main: Z490 Aorus Chipset Intel</p>
+		<p>SSD: Samsung 981 512GB M.2 PCIe</p>
+		<p>Case: VSP Mirror 4 Fan [Radiators ID-Cooling/LED)</p>
+		<p>PSU: 1000W 80 Plus</p>
+                <div class="price">$5000</div>
+            </div>
+            <div class="product">
+                <img src="https://cdn.tgdd.vn/ValueIcons/iphone.jpg" alt="Sản phẩm 2">
+                <h2>Iphone 15 promax 1T Gold</h2>
+                <p>Màn hình:            OLED6.1"Super Retina XDR</p>
+		<p>Hệ điều hành:        iOS 17</p>
+		<p>Chip:                Apple A16 Bionic</p>
+		<p>RAM:                 6 GB</p>
+		<p>Dung lượng lưu trữ:  1 TB</p>
+		<p>Pin, Sạc:            3349 mAh20 W</p>
+                <div class="price">$1300</div>
+            </div>
+            <div class="product">
+                <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:0/q:90/plain/https://cellphones.com.vn/media/wysiwyg/tablet/May-tinh-bang-8.jpg" alt="Sản phẩm 3">
+                <h2>Ipad</h2>
+                <p>Không có gì để mô tả vì sản phẩm đang hoàn thiện.</p>
+                <div class="price">$25.00</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Trang Web Bán Hàng. Tất cả các quyền được bảo lưu.
+    </footer>
+</body>
+</html>
